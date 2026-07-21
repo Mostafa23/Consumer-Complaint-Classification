@@ -11,6 +11,30 @@ When dealing with financial complaints, the text is often messy, unstructured, a
 - **Inference Engine (`03_Model_Inference.ipynb`):** A clean testing environment where anyone can type a new complaint and see the model predict the category in real-time.
 
 
+## 📂 Repository Structure
+```text
+Consumer-Complaint-Classification/
+│
+├── notebooks/                              # Jupyter Notebooks
+│   ├── 01.Training_Kaggle.ipynb            # Model training & optimization
+│   ├── 02_Training_Visualization.ipynb     # Interactive data & performance charts
+│   └── 03_Model_Inference.ipynb            # Live testing and prediction engine
+│
+├── project_outputs/                        # Saved AI Model and Metrics
+│   ├── training_history.json               # Raw performance logs
+│   └── checkpoints/                        # RoBERTa weights (Git LFS) & label mappings
+│
+├── assets/                                 # Images used in documentation
+│   ├── banner.png                          # AI NLP Project Banner
+│   ├── validation_metrics.png              # Epoch Performance Chart
+│   └── inference_demo.png                  # Live Inference Demo Image
+│
+├── README.md                               # Project documentation
+├── requirements.txt                        # Python dependencies
+├── .gitignore                              # Ignored system files
+└── LICENSE                                 # MIT License
+```
+
 ## 📈 Model Performance
 To ensure the model is highly accurate, I tracked its performance across multiple training cycles. The graphs below (generated directly from my training logs) show how the model's accuracy increased while its error rate decreased. 
 
