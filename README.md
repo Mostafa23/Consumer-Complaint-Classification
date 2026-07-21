@@ -27,7 +27,8 @@ To prove the model's capabilities, I ran live inference on completely new, unsee
 <div align="center">
   <img src="assets/inference_demo.png" alt="Live Inference Demo" width="100%">
 </div>
-\n## 🚀 How to Run My Code
+
+## 🚀 How to Run My Code
 You can run this project locally right away:
 1. Install the requirements: `pip install -r requirements.txt`
 2. Open Jupyter Notebook: `jupyter notebook`
