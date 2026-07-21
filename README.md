@@ -10,7 +10,16 @@ When dealing with financial complaints, the text is often messy, unstructured, a
 - **Analytics & Visualization (`02_Training_Visualization.ipynb`):** I created this to visually track how the model learned over time, displaying side-by-side Epoch metrics and dataset distribution.
 - **Inference Engine (`03_Model_Inference.ipynb`):** A clean testing environment where anyone can type a new complaint and see the model predict the category in real-time.
 
-## 🚀 How to Run My Code
+
+## 📈 Model Performance
+To ensure the model is highly accurate, I tracked its performance across multiple training cycles. The graphs below (generated directly from my training logs) show how the model's accuracy increased while its error rate decreased. 
+
+Ultimately, the model achieved an impressive **~88% Validation Accuracy** on complex, imbalanced financial data!
+
+<div align="center">
+  <img src="assets/validation_metrics.png" alt="Validation Metrics" width="100%">
+</div>
+\n## 🚀 How to Run My Code
 You can run this project locally right away:
 1. Install the requirements: `pip install -r requirements.txt`
 2. Open Jupyter Notebook: `jupyter notebook`
@@ -20,4 +29,4 @@ You can run this project locally right away:
 This project is open-sourced under the **MIT License**. Feel free to use, modify, and learn from the code!
 
 ---
-*Developed with passion by Mostafa.*
+*Developed with passion by Mostafa Abdallah.*
