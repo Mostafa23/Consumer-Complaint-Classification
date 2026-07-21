@@ -1,0 +1,1 @@
+{"label2idx": {"credit_card": 0, "retail_banking": 1, "credit_reporting": 2, "mortgages_and_loans": 3, "debt_collection": 4}, "idx2label": {"0": "credit_card", "1": "retail_banking", "2": "credit_reporting", "3": "mortgages_and_loans", "4": "debt_collection"}}
