@@ -19,7 +19,8 @@ Ultimately, the model achieved an impressive **~88% Validation Accuracy** on com
 <div align="center">
   <img src="assets/validation_metrics.png" alt="Validation Metrics" width="100%">
 </div>
-\n## 🚀 How to Run My Code
+
+## 🚀 How to Run My Code
 You can run this project locally right away:
 1. Install the requirements: `pip install -r requirements.txt`
 2. Open Jupyter Notebook: `jupyter notebook`
